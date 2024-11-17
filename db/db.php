@@ -1,9 +1,9 @@
 <?php
-$host = "mydb.xxxxxx.us-east-1.rds.amazonaws.com"; // RDS endpoint
+$host = "database-1.czig4cuce86b.ap-south-1.rds.amazonaws.com"; // RDS endpoint
 $port = "3306"; // Default MySQL port
-$dbname = "yourdatabase"; // Database name
+$dbname = "database-1"; // Database name
 $username = "admin"; // RDS username
-$password = "yourpassword"; // RDS password
+$password = "shaikfirose"; // RDS password
 
 $conn = new mysqli($host, $username, $password, $dbname, $port);
 
